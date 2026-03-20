@@ -1,0 +1,173 @@
+body {
+  overflow: hidden;
+}
+.container {
+  margin: 30px;
+  height: 100vh;
+  display: flex;
+  gap: 50px;
+  align-items: flex-start;
+  overflow: hidden;
+}
+
+.app {
+  width: 350px;
+  background: black;
+  padding: 15px;
+  border-radius: 12px;
+  height: 70vh;
+  overflow-y: auto;
+}
+
+.header {
+  background: #7cc0d8;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.add {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  border: 1px solid white;
+  cursor: pointer;
+  margin: 0px 10px;
+  font-size: 10px;
+}
+
+.search {
+  width: 50%;
+  margin-top: 10px;
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.list {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card {
+  background: #f1f1f1;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.index {
+  font-size: 14px;
+  margin-right: 20px;
+}
+
+.avatar {
+  width: 35px;
+  height: 35px;
+  font-size: x-large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  margin: 0;
+}
+
+.phone {
+  font-size: 12px;
+  color: gray;
+  margin: 0;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.modal-overlay {
+  position: relative;
+  width: 350px;
+}
+
+.modal {
+  background: white;
+  width: 100%;
+  border-radius: 6px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 15px;
+  border-bottom: 1px solid #ccc;
+}
+
+.modal-header span {
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.modal-body {
+  padding: 15px;
+}
+
+.modal-body label {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.modal-body input {
+  width: 90%;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+.btns {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.submit {
+  background: #1976d2;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.reset {
+  background: #333;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
